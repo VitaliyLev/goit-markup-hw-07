@@ -175,7 +175,7 @@ ul {
   background-position: center;
   background-size: 1600px 600px;
 }
-.solutions-title {
+.solutions__title {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -340,7 +340,7 @@ ul {
   margin-bottom: 10px;
 }
 
-.team .section-title {
+.team__title {
   margin-bottom: 40px;
 
   font-size: 36px;
