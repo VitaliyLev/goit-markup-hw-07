@@ -216,7 +216,7 @@ ul {
 
 /* Секція featured Особливості */
 /* Hidden title */
-.hidden-title {
+.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -229,31 +229,31 @@ ul {
   overflow: hidden;
 }
 
-.features-title {
+.features__subtitle {
   margin-bottom: 10px;
 
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features-paragraph {
+.features__text {
   color: var(--paragraph-color-text);
   line-height: 1.71;
 }
-.features-list .item + .item {
+.features__list .features__item + .features__item {
   margin-left: 30px;
 }
-.features-container {
+.features__container {
   display: flex;
 
   padding-top: 94px;
   padding-bottom: 47px;
 }
-.features-list {
+.features__list {
   display: flex;
 }
 
-.features-icon {
+.features__image {
   background-color: var(--background-color-team);
   width: 270px;
   height: 120px;
@@ -262,12 +262,12 @@ ul {
 }
 
 /* Секція чим ми займаємось */
-.section.we-do {
+.produce {
   padding-top: 47px;
   padding-bottom: 94px;
 }
 
-.section-title {
+.produce__title {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -275,22 +275,20 @@ ul {
   text-align: center;
 }
 
-.list-pictures {
+.produce__list {
   display: flex;
 }
-.list-pictures .item + .item {
+.produce__list .produce__item + .produce__item {
   margin-left: 30px;
 }
-.list-pictures img {
+.produce__list img {
   display: block;
 }
-.we-do .item {
-  /* overflow: hidden; */
+.produce .produce__item {
   position: relative;
-  transform: tr;
 }
 
-.paragraph {
+.produce__text {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -344,6 +342,10 @@ ul {
 
 .team .section-title {
   margin-bottom: 40px;
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Кольори абзаців */
