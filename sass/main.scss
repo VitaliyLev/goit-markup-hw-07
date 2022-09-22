@@ -1,11 +1,19 @@
+//Utils
 @import "./utils/variables";
-@import "./components/_header.scss";
-@import "./components/hero";
-@import "./components/features";
-@import "./components/we-do";
-@import "./components/team";
-@import "./components/clients";
-@import "./components/footer";
-@import "./components/filter-portfolio";
-@import "./components/benefits-portfolio";
+@import "./utils/hidden";
+//Base
+@import "./base/base";
+@import "./base/container";
+//Components
+@import "./components/backdrop";
 @import "./components/modal";
+//Loyout
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/we-do";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/filter-portfolio";
+@import "./layout/benefits-portfolio";
