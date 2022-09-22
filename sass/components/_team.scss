@@ -1,0 +1,83 @@
+/* Cекція наша команда*/
+.team {
+    background-color: var(--background-color-team);
+}
+
+.section.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team__card {
+    display: flex;
+}
+
+.team__card .team__item+.team__item {
+    margin-left: 30px;
+}
+
+.team__item {
+    background-color: var(--color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.team__title {
+    margin-bottom: 40px;
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* Кольори абзаців */
+.team__position {
+    color: var(--paragraph-color-text);
+
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team .social {
+    display: flex;
+    width: 206px;
+    height: 44px;
+    margin: 16px 32px 30px 32px;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.team__social--link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50px;
+    fill: var(--icon-svg-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__link:hover,
+.social__link:focus {
+    fill: var(--color-white);
+    background-color: var(--accent-color-blue);
+    outline: none;
+}
+
+.social__icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
